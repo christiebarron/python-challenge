@@ -36,6 +36,8 @@ with open (budget_read, 'r') as f:
         sum_change = sum_change + profit_change[i]
     average_change = sum_change / len(profit_change)
 
+    average_change.index
+
  #print the results
     print("Financial Analysis")
     print("------------------------")   
@@ -44,5 +46,7 @@ with open (budget_read, 'r') as f:
     print(f"Greatest Increase in Profits: {max(profit_change)}")
     print(f"Greatest Decrease in Profits: {min(profit_change)}")
 
+#NEED TO FIX THE INCREASE AND DECREASE IN PROFITS TO INCLUDE THE MONTH
+#NEED TO PRINT SCRIPT TO A TEXT FILE TOO. 
 
 
