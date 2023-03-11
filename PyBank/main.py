@@ -6,7 +6,7 @@ import sys
 #read path
 budget_read = "PyBank/resources/budget_data.csv"
 #write path
-budget_write = "PyBank/resources/buget_output.txt"
+budget_write = "PyBank/analysis/buget_output.txt"
 
 #create the relevant variables
 date = []
